@@ -1,0 +1,5 @@
+<html>
+<body>
+	{{ $var }}
+</body>
+</html>
