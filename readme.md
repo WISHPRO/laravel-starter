@@ -2,9 +2,16 @@
 
 ##Installation
 
-###1. Manual Install
+###1. Install via composer
 
-You can manually install by cloning this repo or download the zip file from this repo, and run composer install.
+You can use composer create-project to install without downloading zip or cloning this repo.
+```
+$ composer create-project kayrules/laravel-starter
+```
+
+###2. Manual Install
+
+Alternatively, you can manually install by cloning this repo or download the zip file from this repo, and run composer install.
 ```
 $ git clone https://github.com/kayrules/laravel-starter.git .
 $ composer install
@@ -24,9 +31,3 @@ $ chmod -R 777 app/storage/
 	> php artisan db:seed
 
 
-###2. Install via composer
-
-Alternatively, you can use composer create-project to install without downloading zip or cloning this repo.
-```
-$ composer create-project kayrules/laravel-starter
-```
