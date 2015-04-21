@@ -29,7 +29,7 @@ return array(
 	|
 	*/
 
-	'host' => 'mail.prasarana.com.my',
+	'host' => 'localhost',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'khairulnizam.dahari@prasarana.com.my', 'name' => 'VPA Administrator'),
+	'from' => array('address' => 'admin@localhost', 'name' => 'Administrator'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return array(
 	|
 	*/
 
-	'username' => 'khairulnizam.dahari@prasarana.com.my',
+	'username' => 'admin@localhost',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -94,7 +94,7 @@ return array(
 	|
 	*/
 
-	'password' => 'Fjme90Q!',
+	'password' => 'password',
 
 	/*
 	|--------------------------------------------------------------------------

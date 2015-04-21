@@ -89,12 +89,16 @@ class GroupController extends BaseController
 		        'permissions' => $ar_groups,
 		    ));
 		} catch (Cartalyst\Sentry\Groups\NameRequiredException $e) {
-		    echo 'Name field is required';
+		    $msg = 'Name field is required';
 		} catch (Cartalyst\Sentry\Groups\GroupExistsException $e) {
-		    echo 'Group already exists';
+		    $msg = 'Group already exists';
 		}
 		
-		return Redirect::to(route('group.assign'));
+		if (!empty($msg)) {
+			return Redirect::to(route('group.list'))->with('STATUS_FAIL', $msg);
+		} else {
+			return Redirect::to(route('group.assign'));
+		}
 	}
 
 	public function DELETE_deleteGroup($id)

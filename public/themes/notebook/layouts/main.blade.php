@@ -23,17 +23,24 @@
           <section class="vbox">          
             <section class="scrollable padder">
               <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
-                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                <li class="active">Workset</li>
+                <li><a href="{{ route('home') }}"><i class="fa fa-home"></i> Home</a></li>
+                <?php
+                $exs = explode('/', Route::current()->getPath());
+                foreach ($exs as $x) {
+                  if(strlen($x) > 0 && strpos($x, '{') === false) {
+                ?>
+                <li class="active">
+                  <a href="{{ route(Route::current()->getName()) }}">
+                  {{ ucwords($x) }}
+                  </a>
+                </li>
+                <?php }} ?>
               </ul>
               {{ Theme::content() }}
             </section>
           </section>
           <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
         </section>
-        <aside class="bg-light lter b-l aside-md hide" id="notes">
-          <div class="wrapper">Notification</div>
-        </aside>
       </section>
     </section>
   </section>

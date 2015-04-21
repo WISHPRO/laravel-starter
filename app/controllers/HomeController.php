@@ -21,12 +21,6 @@ class HomeController extends BaseController {
 		$theme->asset()->container('post-scripts')->usePath()->add('laravel10', 'js/calendar/demo.js');
 		$theme->asset()->container('post-scripts')->usePath()->add('laravel11', 'js/sortable/jquery.sortable.js');
 
-		// $params = array();
-		// Mail::send('emails.welcome', $params, function($message) {
-		//   $message->to('khairulnizam.dahari@prasarana.com.my', 'khairulnizam')
-		//           ->subject('Welcome to VPA!');
-		// });
-
 		$params = array();
 		return $theme->scope('home.index', $params)->render();
 	}

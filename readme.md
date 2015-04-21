@@ -1,3 +1,8 @@
-## Vendor Performance Analysis System (VPA)
+## Laravel Starter CMS Template
 
-URL: http://10.128.48.35/vpa/public/
+## For Local Installation:
+---
+	> php artisan migrate --package=cartalyst/sentry
+	> php artisan migrate
+	> php artisan db:seed
+

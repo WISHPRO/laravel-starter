@@ -1,9 +1,17 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "kayrules/laravel-starter",
+	"description": "The Laravel Starter CMS with Bootstrap.",
+	"keywords": ["framework", "laravel", "bootstrap", "cms", "theme", "starter"],
 	"license": "MIT",
 	"type": "project",
+	"authors": [
+        {
+            "name": "Mohd Khairulnizam Md Dahari",
+            "email": "me@kayrules.com",
+            "homepage":"https://github.com/kayrules/laravel-starter",
+            "role": "developer"
+        }
+    ],
 	"require": {
 		"laravel/framework": "4.2.*",
 		"teepluss/theme": "1.2.*@dev",
@@ -24,14 +32,21 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
+			"php artisan migrate --package=cartalyst/sentry",
+			"php artisan migrate",
+			"php artisan db:seed",
 			"php artisan clear-compiled",
 			"php artisan optimize"
 		],
 		"post-update-cmd": [
+			"php artisan migrate --package=cartalyst/sentry",
+			"php artisan migrate",
+			"php artisan db:seed",
 			"php artisan clear-compiled",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [
+			"chmod -R 777 app/storage",
 			"php artisan key:generate"
 		]
 	},

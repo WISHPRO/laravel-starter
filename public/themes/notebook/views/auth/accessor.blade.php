@@ -1,10 +1,10 @@
 <div class="row col-md-4 col-md-offset-4 col-centered" style="margin-top:100px;">
   <div class="text-center wrapper">
-    <img src="{{ Theme::asset()->url('img/prasarana_logo.png') }}" class="m-r-sm">
+    <img src="{{ Theme::asset()->url('img/logo.png') }}" class="m-r-sm">
     <h2 class="text-center padder">{{ Theme::get('description') }}</h2>
   </div>
 
-  {{ bootstrap_alert() }}
+  {{ Helper::bootstrap_alert() }}
 
   <section class="panel panel-info">
     <header class="panel-heading font-bold">Accessor Authentication</header>
@@ -29,7 +29,7 @@
   </section>
   <div class="text-center padder clearfix">
       <p>
-        <small>ITD, Prasarana Malaysia Berhad<br>&copy; {{ date('Y') }}</small>
+        <small>Kay Rules<br>&copy; {{ date('Y') }}</small>
       </p>
     </div>
 </div>

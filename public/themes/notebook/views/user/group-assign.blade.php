@@ -5,7 +5,7 @@
   	
 </div>
 
-{{ bootstrap_alert() }}
+{{ Helper::bootstrap_alert() }}
 
 <section class="panel panel-default">
 	<div class="table-responsive">

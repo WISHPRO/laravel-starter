@@ -1,0 +1,1145 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PAY",
+				"PAYSLIPVARIANT"
+			],
+			[
+				"mont",
+				"months"
+			],
+			[
+				"padd",
+				"padding-bottom: 〔property〕"
+			],
+			[
+				"bac",
+				"background-color: 〔property〕"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"vers",
+				"version"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"__",
+				"__canvas"
+			],
+			[
+				"set",
+				"setDimensions"
+			],
+			[
+				"canvas",
+				"canvas_front"
+			],
+			[
+				"colorC",
+				"color-source"
+			],
+			[
+				"color",
+				"colorName"
+			],
+			[
+				"font",
+				"fontFamily"
+			],
+			[
+				"ac",
+				"activeObj"
+			],
+			[
+				"form",
+				"form_control"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"cam",
+				"campaign"
+			],
+			[
+				"Camp",
+				"campaign"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"times_tis",
+				"times_thisweek"
+			],
+			[
+				"this",
+				"thismonth"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"vendor",
+				"vendor-name"
+			],
+			[
+				"ven",
+				"vendor_type"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"the",
+				"theme"
+			],
+			[
+				"paymen",
+				"payment_advice_status"
+			],
+			[
+				"col-",
+				"col-md-12"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"center",
+				"center_lng"
+			],
+			[
+				"route",
+				"route_id"
+			],
+			[
+				"ce",
+				"center_lng"
+			],
+			[
+				"ROUT",
+				"RouteDetail"
+			],
+			[
+				"acti",
+				"active"
+			],
+			[
+				"Cam",
+				"CampaignOrder"
+			],
+			[
+				"campa",
+				"campaignOrders"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"mysql_fetc",
+				"mysql_fetch_array"
+			],
+			[
+				"lat",
+				"lat"
+			],
+			[
+				"get",
+				"getPosition"
+			],
+			[
+				"ge",
+				"getArray"
+			],
+			[
+				"g",
+				"getArray"
+			],
+			[
+				"la",
+				"lat"
+			],
+			[
+				"poly",
+				"polyPoint"
+			],
+			[
+				"lg",
+				"latLng"
+			],
+			[
+				"ex",
+				"exurl"
+			],
+			[
+				"lis",
+				"lists"
+			],
+			[
+				"Tas",
+				"Task"
+			],
+			[
+				"Task",
+				"Tasks"
+			],
+			[
+				"task",
+				"taskName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/config/app.php",
+			"settings":
+			{
+				"buffer_size": 7965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/database.php",
+			"settings":
+			{
+				"buffer_size": 3319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/themes/notebook/config.php",
+			"settings":
+			{
+				"buffer_size": 3047,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/themes/notebook/layouts/auth.blade.php",
+			"settings":
+			{
+				"buffer_size": 722,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/themes/notebook/layouts/error.blade.php",
+			"settings":
+			{
+				"buffer_size": 912,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/themes/notebook/layouts/main.blade.php",
+			"settings":
+			{
+				"buffer_size": 1997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/themes/notebook/layouts/popup.blade.php",
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"u",
+				"SFTP: Upload File"
+			],
+			[
+				"",
+				"Git: Commit"
+			],
+			[
+				"U",
+				"SFTP: Upload File"
+			],
+			[
+				"up",
+				"SFTP: Upload File"
+			],
+			[
+				"git ",
+				"Git: Custom Command"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"upo",
+				"SFTP: Upload Open Files"
+			],
+			[
+				"upload",
+				"SFTP: Upload Open Files"
+			],
+			[
+				"y",
+				"Set Syntax: YAML"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git push ",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"gith",
+				"Git: Push"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"sftp",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sfto",
+				"SFTP: Map to Remote…"
+			],
+			[
+				"dow",
+				"SFTP: Download File"
+			],
+			[
+				"do",
+				"SFTP: Download File"
+			],
+			[
+				"down",
+				"SFTP: Download File"
+			],
+			[
+				"upl",
+				"SFTP: Upload File"
+			],
+			[
+				"upda",
+				"SFTP: Upload File"
+			],
+			[
+				"uplo",
+				"SFTP: Upload File"
+			],
+			[
+				"upd",
+				"SFTP: Upload File"
+			],
+			[
+				"upla",
+				"SFTP: Upload File"
+			],
+			[
+				"ul",
+				"SFTP: Upload File"
+			],
+			[
+				"downlo",
+				"SFTP: Download File"
+			],
+			[
+				"uploa",
+				"SFTP: Upload File"
+			],
+			[
+				"uplao",
+				"SFTP: Upload File"
+			],
+			[
+				"sftr",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"remote",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
+			[
+				"comme",
+				"Toggle Block Comment"
+			],
+			[
+				"open",
+				"SFTP: Show Panel"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"package",
+			"install package",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kayrules/Webroot/starter",
+		"/Users/kayrules/Webroot/starter/app",
+		"/Users/kayrules/Webroot/starter/app/config",
+		"/Users/kayrules/Webroot/starter/public",
+		"/Users/kayrules/Webroot/starter/public/themes",
+		"/Users/kayrules/Webroot/starter/public/themes/notebook",
+		"/Users/kayrules/Webroot/starter/public/themes/notebook/assets",
+		"/Users/kayrules/Webroot/starter/public/themes/notebook/assets/js",
+		"/Users/kayrules/Webroot/starter/public/themes/notebook/layouts",
+		"/Users/kayrules/Webroot/starter/public/themes/notebook/partials",
+		"/Users/kayrules/Webroot/starter/public/themes/notebook/views"
+	],
+	"file_history":
+	[
+		"/Users/kayrules/Webroot/laravel/ess/app/controllers/GroupController.php",
+		"/Users/kayrules/Webroot/laravel/ess/public/themes/notebook/layouts/popup.blade.php",
+		"/Users/kayrules/Webroot/laravel/ess/app/classes/PDF.php",
+		"/Users/kayrules/Webroot/laravel/ess/app/config/app.php",
+		"/Users/kayrules/Webroot/laravel/ess/app/classes/MyFPDI.php",
+		"/Users/kayrules/Webroot/laravel/ess/composer.json",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/itbz/fpdi/src/fpdi/FPDIProtection.php",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/itbz/fpdi/src/fpdi/fpdi/FPDI.php",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/itbz/fpdi/src/fpdi/FPDI_Protection.php",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/itbz/fpdf/src/fpdf/FPDF.php",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/fpdi/fpdi.php",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/fpdi/fpdf_tpl.php",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/fpdi/fpdi_pdf_parser.php",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/fpdi/pdf_parser.php",
+		"/Users/kayrules/Webroot/laravel/ess/app/controllers/PayslipController.php",
+		"/Users/kayrules/Webroot/laravel/ess/vendor/fpdi/FPDI_Protection.php",
+		"/Users/kayrules/Webroot/laravel/ess/app/routes.php",
+		"/Users/kayrules/Webroot/laravel/ess/app/classes/FPDI.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/helpers.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/database/migrations/2015_04_17_115814_add_username_to_users_table.php",
+		"/Users/kayrules/Webroot/sapdev/ess/vendor/cartalyst/sentry/src/config/config.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/config/packages/cartalyst/sentry/config.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/controllers/AuthController.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/database/seeds/UserTableSeeder.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/views/user/create.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/controllers/PayslipController.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/views/auth/login.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/routes.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/controllers/AdminController.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/views/user/list.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/controllers/UserController.php",
+		"/Users/kayrules/Webroot/sapdev/ess/vendor/cartalyst/sentry/src/Cartalyst/Sentry/SentryServiceProvider.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/database/migrations/2015_04_17_111427_add_employeeid_to_users_table.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/views/payslip/index.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/config/app.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/views/home/index.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/database/seeds/GroupTableSeeder.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/database/seeds/UserGroupTableSeeder.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/controllers/HomeController.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/database/migrations/2015_04_17_111427_add_username_to_users_table.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/config.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/assets/css/app.css",
+		"/Users/kayrules/Webroot/sapdev/ess/app/filters.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/partials/header.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/views/admin/index.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/views/payslip/index.bade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/partials/menu-employee.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/partials/header-employee.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/layouts/employee.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/partials/footer.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/classes/SAPRFC.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/controllers/APIController.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/classes/Helper.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/partials/header-form.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/layouts/guest.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/sftp-config.json",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/partials/menu.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/start/global.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/layouts/main.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/classes/LDAP.php",
+		"/Users/kayrules/Webroot/sapdev/ess/public/themes/notebook/views/error/404.blade.php",
+		"/Users/kayrules/Webroot/sapdev/ess/app/config/database.php",
+		"/Users/kayrules/Webroot/fleezo/app/controllers/AdminController.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/views/clipart/list.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/views/admin/cliparts.blade.php",
+		"/Users/kayrules/Webroot/fleezo/app/database/migrations/2015_03_04_045816_create_clipart_tags_table.php",
+		"/Users/kayrules/Webroot/fleezo/app/database/migrations/2015_03_04_045755_create_cliparts_table.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/assets/js/designer.js",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/views/campaign/tool.blade.php",
+		"/Users/kayrules/Webroot/fleezo/app/controllers/SearchController.php",
+		"/Users/kayrules/Webroot/fleezo/app/controllers/AuthController.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/views/admin/index.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/partials/menu.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/config.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/assets/css/designer.css",
+		"/Users/kayrules/Webroot/fleezo/app/database/seeds/GroupTableSeeder.php",
+		"/Users/kayrules/Webroot/fleezo/app/database/migrations/2015_02_19_085311_create_campaigns_table.php",
+		"/Users/kayrules/Webroot/fleezo/app/config/database.php",
+		"/Users/kayrules/Webroot/fleezo/app/controllers/CampaignController.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/assets/js/fontselector.js",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/layouts/home.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/partials/header.blade.php",
+		"/Users/kayrules/Webroot/fleezo/app/controllers/HomeController.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/layouts/tool.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/assets/css/designer.css",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/assets/js/designer.js",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/views/campaign/tool.blade.php",
+		"/Users/kayrules/Webroot/fleezo/app/routes.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/assets/css/animate.css",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/layouts/tool.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/config.php",
+		"/Users/kayrules/Webroot/printpixel/src/app/index.html",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/views/campaign/tool.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/assets/js/printpixel.js",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/layouts/tool.blade.html",
+		"/Users/kayrules/Webroot/printpixel/src/app/views/image.html",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/layouts/home.blade.php",
+		"/Users/kayrules/Webroot/printpixel/src/app/views/product.home.html",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/assets/js/templatescache.js",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/views/campaign/designer.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/views/campaign/test.blade.php",
+		"/Users/kayrules/Webroot/fleezo/app/helpers.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/views/home/index.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/partials/header.blade.php",
+		"/Users/kayrules/Webroot/fleezo/app/models/Campaign.php",
+		"/Users/kayrules/Webroot/fleezo/app/models/untitled.html",
+		"/Users/kayrules/Webroot/fleezo/app/controllers/TelegramController.php",
+		"/Users/kayrules/Webroot/fleezo/TODO.txt",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/assets/css/bootstrap.css",
+		"/Users/kayrules/Webroot/fleezo/app/database/seeds/DatabaseSeeder.php",
+		"/Users/kayrules/Webroot/fleezo/app/controllers/ErrorController.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/lumen/views/error/404.blade.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/views/home/index.blade.php",
+		"/Users/kayrules/Webroot/fleezo/app/config/app.php",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/assets/js/app.js",
+		"/Users/kayrules/Webroot/fleezo/public/themes/notebook/assets/css/font.css",
+		"/Users/kayrules/Webroot/fleezo/sftp-config.json",
+		"/Users/kayrules/Webroot/solatjakim/public/themes/notebook/partials/menu.blade.php",
+		"/Users/kayrules/Webroot/solatjakim/public/themes/notebook/views/home/zones.blade.php",
+		"/Users/kayrules/Webroot/solatjakim/app/classes/Helper.php",
+		"/Users/kayrules/Webroot/solatjakim/public/themes/notebook/layouts/blue.blade.php",
+		"/Users/kayrules/Webroot/solatjakim/public/themes/notebook/assets/css/app.css",
+		"/Users/kayrules/Webroot/solatjakim/app/routes.php",
+		"/Users/kayrules/Webroot/solatjakim/app/controllers/HomeController.php",
+		"/Users/kayrules/Webroot/solatjakim/public/themes/notebook/views/reference/times_date.blade.php",
+		"/Users/kayrules/Webroot/solatjakim/public/themes/notebook/views/reference/times_month.blade.php",
+		"/Users/kayrules/Webroot/solatjakim/public/themes/notebook/views/reference/times_this_month.blade.php",
+		"/Users/kayrules/Webroot/solatjakim/public/themes/notebook/views/reference/times_this_week.blade.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/kayrules/Webroot/laravel/ess/vendor/fpdi",
+			"/Users/kayrules/Webroot/printpixel/src/app/views",
+			"/Users/kayrules/Webroot/solatjakim",
+			"/Users/kayrules/Webroot/vpa",
+			"/Users/kayrules/Webroot/vpas",
+			"/Users/kayrules/Webroot/AMS/ams",
+			"/Users/kayrules/Webroot/AMS/ams/View/Themed/FlatTheme",
+			"/Users/kayrules/Webroot/AMS/dev/View/Themed/FlatTheme",
+			"/Users/kayrules/Webroot/AMS/dev",
+			"/Users/kayrules/Webroot/october/themes/notebook/assets/css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MyFPDI",
+			"setSourceFile",
+			"Download",
+			"Output",
+			"Unable to find \"startxref\" keyword.",
+			"_putformxobjects",
+			"=&",
+			"AddPage(",
+			"AddPage($orientation",
+			"AddPage($orientation = '', $size",
+			"AddPage",
+			"=&",
+			"Attribute",
+			"setLoginAttribute",
+			"setLoginAttributeName",
+			"bg-primary",
+			"style",
+			"canvas.",
+			"this.__",
+			"window.",
+			"setHeight",
+			"setWidth",
+			"setDimensions",
+			"#cc",
+			"#c",
+			"#cc",
+			"#c",
+			"c",
+			"cc",
+			"console",
+			"__selColor",
+			"__defColor",
+			"red",
+			"dropdown-menu",
+			"designer-controller",
+			"durat",
+			"error",
+			"h4",
+			"uppercase",
+			"capitalize",
+			"a.",
+			"ref.",
+			"ref",
+			"ref.",
+			"azanpro",
+			"hour",
+			"prasarana",
+			"pre",
+			"stret",
+			"p,",
+			"^p",
+			"p.",
+			"pre",
+			"User",
+			"plaintext",
+			"inner",
+			"buyer",
+			"aside",
+			"ticket no",
+			"ticket number",
+			"ticket_numbe",
+			"ticket",
+			"tick",
+			"images",
+			"image",
+			"homeController",
+			"55px",
+			"controller",
+			".map",
+			"map",
+			"\"localhost\",\"root\",\"password\"",
+			"root",
+			"progress",
+			"view_route",
+			"create_route",
+			"admin",
+			"resize",
+			"map-tab",
+			"status",
+			"color-palette",
+			"configuration",
+			"</div",
+			"<div",
+			"</div",
+			"<div",
+			"acti",
+			"Session->write",
+			"active",
+			"savedata",
+			"color-palette",
+			"lng",
+			"long",
+			"update",
+			"route",
+			"save",
+			"save_coordinates",
+			"save(",
+			"save",
+			"savedata",
+			"create_route",
+			"savedata",
+			"stopPoly",
+			"map",
+			"markers",
+			"listing",
+			"controls",
+			"establishment",
+			"childnodes",
+			"form",
+			"childnodes",
+			"map",
+			"panto",
+			"tilesLoaded",
+			"map_canvas",
+			"tab",
+			"tab-data",
+			"tab",
+			"saveDragDropNodes",
+			"Layout Options",
+			"no-print open",
+			"getConfigurationStatus",
+			"timeline",
+			">\n",
+			"index(",
+			"index",
+			"add",
+			"plugin",
+			"search"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"PDF",
+			"=",
+			"window.__",
+			"this.",
+			"Kawasan",
+			"\"localhost\",\"euph0rix\",\"fjme90\"",
+			"col-md-",
+			"\"{{ 'assets/images/avatar.jpg' | theme }}\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1816,
+								1816
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 587.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/themes/notebook/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2252,
+								2252
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/themes/notebook/layouts/auth.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/themes/notebook/layouts/error.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								738
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/themes/notebook/layouts/main.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1464,
+								1464
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 131.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/themes/notebook/layouts/popup.blade.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 69.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "starter.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

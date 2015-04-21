@@ -1,24 +1,23 @@
 
-        <aside class="bg-dark lter aside-md hidden-print" id="nav">          
+        <aside class="bg-dark lter aside-md hidden-print" id="nav">
           <section class="vbox">
             <header class="header bg-primary lter text-center clearfix">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-dark btn-icon" title="New project"><i class="fa fa-plus"></i></button>
                 <div class="btn-group hidden-nav-xs">
                   <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown">
-                    Create New Project &nbsp;
+                    Dropdown &nbsp;
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu text-left">
-                    <li><a href="{{ route('create.index', 'capex') }}">CAPEX</a></li>
-                    <li><a href="{{ route('create.index', 'opex') }}">OPEX</a></li>
+                    <li><a href="#">Dropdown 1</a></li>
+                    <li><a href="#">Dropdown 2</a></li>
                   </ul>
                 </div>
               </div>
             </header>
             <section class="w-f scrollable">
               <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
-                
                 
                 <nav class="nav-primary hidden-xs">
                   <ul class="nav">
@@ -31,15 +30,6 @@
                         <span>Home</span>
                       </a>
                     </li>
-                   
-                   <li class="{{ set_active('search'); }}">
-                      <a href="{{ route('search') }}" class="{{ set_active('search.search') }}">
-                        <i class="fa fa-search icon">
-                          <b class="bg-primary"></b>
-                        </i>
-                        <span>Search Project</span>
-                      </a>
-                    </li>
 
                     <li class="{{ set_active('list') }}">
                       <a href="#list"  >
@@ -50,77 +40,29 @@
                           <i class="fa fa-angle-down text"></i>
                           <i class="fa fa-angle-up text-active"></i>
                         </span>
-                        <span>Project List</span>
+                        <span>Menu List</span>
                       </a>
                       <ul class="nav lt">
-                        <li class="{{ set_active('list.consultant') }}">
-                          <a href="{{ route('list.consultant') }}">
+                        <li class="{{ set_active('list.menu1') }}">
+                          <a href="{{ route('home') }}">
                             <i class="fa fa-angle-right"></i>
-                            <span>Consultant</span>
+                            <span>Menu 1</span>
                           </a>
                         </li>
-                        <li class="{{ set_active('list.contractor') }}">
-                          <a href="{{ route('list.contractor') }}">
+                        <li class="{{ set_active('list.menu2') }}">
+                          <a href="{{ route('home') }}">
                             <i class="fa fa-angle-right"></i>
-                            <span>Contractor</span>
+                            <span>Menu 2</span>
                           </a>
                         </li>
-                        <li class="{{ set_active('list.supplier') }}">
-                          <a href="{{ route('list.supplier') }}">
+                        <li class="{{ set_active('list.menu3') }}">
+                          <a href="{{ route('home') }}">
                             <i class="fa fa-angle-right"></i>
-                            <span>Supplier</span>
+                            <span>Menu 3</span>
                           </a>
                         </li>
                       </ul>
                     </li>
-
-
-
-                    <li class="{{ set_active('config') }}">
-                      <a href="#questions"  >
-                        <i class="fa fa-magic icon">
-                          <b class="bg-success"></b>
-                        </i>
-                        <span class="pull-right">
-                          <i class="fa fa-angle-down text"></i>
-                          <i class="fa fa-angle-up text-active"></i>
-                        </span>
-                        <span>Settings</span>
-                      </a>
-                      <ul class="nav lt">
-                        <li class="{{ set_active('config.consultant') }}">
-                          <a href="{{ route('config.consultant') }}">
-                            <i class="fa fa-angle-right"></i>
-                            <span>Consultant Question</span>
-                          </a>
-                        </li>
-                        <li class="{{ set_active('config.contractor') }}">
-                          <a href="{{ route('config.contractor') }}">
-                            <i class="fa fa-angle-right"></i>
-                            <span>Contractor Question</span>
-                          </a>
-                        </li>
-                        <li class="{{ set_active('config.supplier') }}">
-                          <a href="{{ route('config.supplier') }}">
-                            <i class="fa fa-angle-right"></i>
-                            <span>Supplier Question</span>
-                          </a>
-                        </li>
-                        {{-- <li class="{{ set_active('config.buyer') }}">
-                          <a href="{{ route('config.buyer') }}">
-                            <i class="fa fa-angle-right"></i>
-                            <span>Buyers</span>
-                          </a>
-                        </li> --}}
-                        <li class="{{ set_active('config.vendor') }}">
-                          <a href="{{ route('config.vendor') }}">
-                            <i class="fa fa-angle-right"></i>
-                            <span>Vendors</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-
 
                     <li class="{{ set_active('user'); }}">
                       <a href="#users">

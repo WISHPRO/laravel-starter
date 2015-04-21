@@ -8,7 +8,7 @@ class UserTableSeeder extends Seeder {
         $now = date('Y-m-d H:i:s');
 
         User::create(array(
-	        'email' => 'vpa.admin@prasarana.com.my',
+	        'email' => 'admin@localhost',
             'password' => Hash::make('1q2w3e4r'),
             'activated'  => 1,
             'first_name' => 'Administrator',

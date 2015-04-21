@@ -3,7 +3,7 @@
   <h3 class="m-b-none">Add New Group</h3>
 </div>
 
-{{ bootstrap_alert() }}
+{{ Helper::bootstrap_alert() }}
 
   <section class="panel panel-default">
     <div class="panel-body">

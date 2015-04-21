@@ -35,22 +35,9 @@ return array(
         // you want inheriting.
         'before' => function($theme)
         {
-            $theme->set('title', 'VPA System');
-            $theme->set('keywords', 'VPA System');
-            $theme->set('description', 'Vendor Performance Appraisal System');
-
-            // Breadcrumb template.
-            // $theme->breadcrumb()->setTemplate('
-            //     <ul class="breadcrumb">
-            //     @foreach ($crumbs as $i => $crumb)
-            //         @if ($i != (count($crumbs) - 1))
-            //         <li><a href="{{ $crumb["url"] }}">{{ $crumb["label"] }}</a><span class="divider">/</span></li>
-            //         @else
-            //         <li class="active">{{ $crumb["label"] }}</li>
-            //         @endif
-            //     @endforeach
-            //     </ul>
-            // ');
+            $theme->set('title', 'Laravel Starter CMS');
+            $theme->set('keywords', 'Laravel Starter CMS');
+            $theme->set('description', 'Laravel Starter CMS');
         },
 
         // Listen on event before render a theme,
@@ -71,7 +58,6 @@ return array(
             $theme->asset()->usePath()->add('app', 'css/app.css');
 
             // core js
-            // $theme->asset()->container('core-scripts')->usePath()->add('jquery', 'js/jquery.min.js');
             $theme->asset()->container('core-scripts')->usePath()->add('jquery', 'js/jquery-1.11.2.min.js');
             $theme->asset()->container('core-scripts')->usePath()->add('bootstrap', 'js/bootstrap.js');
             $theme->asset()->container('core-scripts')->usePath()->add('app', 'js/app.js');

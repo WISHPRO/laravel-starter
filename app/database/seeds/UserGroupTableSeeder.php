@@ -7,7 +7,7 @@ class UserGroupTableSeeder extends Seeder {
         DB::table('users_groups')->delete();
 
         $user_id = DB::table('users')->select('id')
-                                     ->where('email', 'vpa.admin@prasarana.com.my')
+                                     ->where('email', 'admin@localhost')
                                      ->first()
                                      ->id;
 

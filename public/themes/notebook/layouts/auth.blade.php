@@ -16,14 +16,6 @@
   <section id="content">
     {{ Theme::content() }}
   </section>
-  
-  <!-- <footer id="footer">
-    <div class="text-center padder clearfix">
-      <p>
-        <small>ITD, Prasarana Malaysia Berhad<br>&copy; 2014</small>
-      </p>
-    </div>
-  </footer> -->
 
   {{ Theme::asset()->container('core-scripts')->scripts() }}
   {{ Theme::asset()->container('post-scripts')->scripts() }}

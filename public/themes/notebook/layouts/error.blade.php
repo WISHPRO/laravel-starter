@@ -20,7 +20,7 @@
   <footer id="footer">
     <div class="text-center padder clearfix">
       <p>
-        <small>ITD, Prasarana Malaysia Berhad<br>&copy; 2014</small>
+        <small>Kay Rules<br>&copy; {{ date('Y') }}</small>
       </p>
     </div>
   </footer>

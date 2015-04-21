@@ -19,25 +19,14 @@ class AuthController extends BaseController {
 		        'password' => Input::get('password'),
 		    );
 
-		    if (Input::get('email') == 'vpa.admin@prasarana.com.my') {
-				$user = Sentry::authenticateAndRemember($credentials, false);
-			} else {
-				// LDAP
-				$ldap = LDAP::login($credentials['email'], $credentials['password']);
-				if(!$ldap) {
-					$msg = 'Invalid domain credential.';
-			    	return Redirect::back()->with('STATUS_FAIL', $msg)->withInput();
-				} else {
-					$find_user = Sentry::findUserByLogin($credentials['email']);
-					if($find_user) {
-						if(!$find_user->checkPassword($credentials['password'])) {
-							$find_user->password = $credentials['password'];
-							$find_user->save();
-						}
-						// Authenticate the user
-		    			$user = Sentry::authenticateAndRemember($credentials, false);
-					}
+			$find_user = Sentry::findUserByLogin($credentials['email']);
+			if($find_user) {
+				if(!$find_user->checkPassword($credentials['password'])) {
+					$find_user->password = $credentials['password'];
+					$find_user->save();
 				}
+				// Authenticate the user
+    			$user = Sentry::authenticateAndRemember($credentials, false);
 			}
 		}
 		catch (Cartalyst\Sentry\Users\LoginRequiredException $e)
