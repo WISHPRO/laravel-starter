@@ -6,7 +6,7 @@
 ---
 You can use composer create-project to install without downloading zip or cloning this repo.
 ```
-$ composer create-project kayrules/laravel-starter
+$ composer create-project kayrules/laravel-starter your-project-name
 ```
 
 ###2. Manual Install
