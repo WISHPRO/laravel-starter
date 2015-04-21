@@ -33,6 +33,30 @@ Before run the migration command, you need to create a new database for this pro
 ###3. Initial Migration
 ---
 ```
-> php artisan migrate --package=cartalyst/sentry
-> php artisan db:seed
+$ php artisan migrate --package=cartalyst/sentry
+$ php artisan db:seed
 ```
+
+##Demo
+
+###* URL
+---
+For public access:
+```
+http://dev.kayrules.com/laravel-starter/
+```
+
+Administrator Access:
+```
+http://dev.kayrules.com/laravel-starter/admin
+- Username: admin@localhost
+- Password: 1q2w3e4r
+```
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-<div class="bg-primary dk">
+<div class="bg-danger dk">
       <div class="text-center wrapper">
         <div class="m-t-xl m-b-xl">
           <div class="text-uc h1 font-bold inline">
@@ -20,51 +20,9 @@
           <div class="h4 text-muted m-t-sm">Modern, Clean & Flat User Interface Kit Made with Love & Passion</div>
         </div>
         <p class="text-center m-b-xl">
-          <a href="http://themeforest.net/user/Flatfull/portfolio?ref=flatfull" target="_blank" class="btn btn-lg btn-dark m-sm">Download it</a>
-          <a href="index.html" target="_blank" class="btn btn-lg btn-warning b-white bg-empty m-sm">Live Preview</a>
+          <a href="https://github.com/kayrules/laravel-starter" target="_blank" class="btn btn-lg btn-dark m-sm">Download it</a>
+          <a href="http://dev.kayrules.com/laravel-starter/" target="_blank" class="btn btn-lg btn-warning b-white bg-empty m-sm">Live Preview</a>
         </p>
-      </div>
-      <div class="padder">
-        <div class="hbox">
-          <aside class="col-md-3 v-bottom text-right">
-            <div class="hidden-sm hidden-xs">
-              <section class="panel bg-dark inline m-b-n-lg m-r-n-lg aside-sm no-border device phone animated fadeInLeftBig">
-                <header class="panel-heading text-center">
-                  <i class="fa fa-minus fa-2x m-b-n-xs block"></i>
-                </header>
-                <div>
-                  <div class="m-l-xs m-r-xs">
-                    <img src="{{ Theme::asset()->url('img/phone-2.png') }}" class="img-full" >
-                  </div>
-                </div>
-              </section>
-            </div>
-          </aside>
-          <aside class="col-sm-10 col-md-6">
-            <section class="panel bg-dark m-b-n-lg no-border device animated fadeInUp">
-              <header class="panel-heading text-left">
-                <i class="fa fa-circle fa-fw"></i>
-                <i class="fa fa-circle fa-fw"></i>
-                <i class="fa fa-circle fa-fw"></i>
-              </header>
-              <img src="{{ Theme::asset()->url('img/main.png') }}" class="img-full" >
-            </section>
-          </aside>
-          <aside class="col-md-3 v-bottom">
-            <div class="hidden-sm hidden-xs">
-              <section class="panel bg-light m-b-n-lg m-l-n-lg aside no-border device phone animated fadeInRightBig">
-                <header class="panel-heading text-center">
-                  <i class="fa fa-minus fa-2x text-white m-b-n-xs block"></i>
-                </header>
-                <div class="">
-                  <div class="m-l-xs m-r-xs">
-                    <img src="{{ Theme::asset()->url('img/phone-1.png') }}" class="img-full" >
-                  </div>
-                </div>
-              </section>
-            </div>
-          </aside>
-        </div>
       </div>
       <div class="dker pos-rlt">
         <div class="container wrapper">
@@ -111,9 +69,9 @@
         </div>
         <div class="m-t-xl m-b-xl text-center wrapper">
           <p class="h5">You can use it to build your 
-            <span class="text-primary">Content manage system</span>, 
-            <span class="text-primary">Travel app</span>, 
-            <span class="text-primary">Medical app</span>...
+            <span class="text-danger">Content manage system</span>, 
+            <span class="text-danger">Travel app</span>, 
+            <span class="text-danger">Medical app</span>...
           </p>
         </div>
       </div>
@@ -123,7 +81,7 @@
         <div class="container">
           <div class="m-t-xl m-b-xl wrapper">
             <h3 class="text-white">Your application will works no matter where you are</h3>
-            <p>You can use your application at anywhere in the world. <br>This template works on <span class="text-primary text-ul">mobile device</span> too.</p>
+            <p>You can use your application at anywhere in the world. <br>This template works on <span class="text-danger text-ul">mobile device</span> too.</p>
           </div>
           <div class="row m-t-xl m-b-xl">
             <div class="col-sm-4 wrapper-xl" data-ride="animated" data-animation="fadeInLeft" data-delay="300">

@@ -19,7 +19,7 @@
   <header id="header" class="navbar navbar-fixed-top bg-white box-shadow b-b b-light"  data-spy="affix" data-offset-top="1">
     <div class="container">
       <div class="navbar-header">        
-        <a href="#" class="navbar-brand"><img src="{{ Theme::asset()->url('img/logo.png') }}" class="m-r-sm"><span class="text-muted">Notebook</span></a>
+        <a href="#" class="navbar-brand"><img src="{{ Theme::asset()->url('img/logo.png') }}" class="m-r-sm"><span class="text-muted">Laravel Starter</span></a>
         <button class="btn btn-link visible-xs" type="button" data-toggle="collapse" data-target=".navbar-collapse">
           <i class="fa fa-bars"></i>
         </button>
@@ -27,19 +27,16 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active">
-            <a href="landing.html">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="features.html">Features</a>
+            <a href="#">Features</a>
           </li>
           <li>
-            <a href="price.html">Plans & Pricing</a>
+            <a href="#">Blog</a>
           </li>
           <li>
-            <a href="blog.html">Blog</a>
-          </li>
-          <li>
-            <div class="m-t-sm"><a href="signin.html" class="btn btn-link btn-sm">Sign in</a> <a href="signup.html" class="btn btn-sm btn-success m-l"><strong>Sign up</strong></a></div>
+            <div class="m-t-sm"><a href="#" class="btn btn-link btn-sm">Sign in</a> <a href="signup.html" class="btn btn-sm btn-success m-l"><strong>Sign up</strong></a></div>
           </li>
         </ul>
       </div>
@@ -52,15 +49,15 @@
   
   <!-- footer -->
   <footer id="footer">
-    <div class="bg-primary text-center">
+    <div class="bg-danger text-center">
       <div class="container wrapper">
         <div class="m-t-xl m-b">
           For your faster and easier web development.
-          <a href="http://themeforest.net/user/Flatfull/portfolio?ref=flatfull" target="_blank" class="btn btn-lg btn-dark b-white bg-empty m-sm">Download it</a>
-          <a href="index.html" target="_blank" class="btn btn-lg btn-warning b-white bg-empty m-sm">Live Preview</a>
+          <a href="https://github.com/kayrules/laravel-starter" target="_blank" class="btn btn-lg btn-dark m-sm">Download it</a>
+          <a href="http://dev.kayrules.com/laravel-starter/" target="_blank" class="btn btn-lg btn-warning b-white bg-empty m-sm">Live Preview</a>
         </div>
       </div>
-      <i class="fa fa-caret-down fa-4x text-primary m-b-n-lg block"></i>
+      <i class="fa fa-caret-down fa-4x text-danger m-b-n-lg block"></i>
     </div>
     <div class="bg-dark dker wrapper">
       <div class="container text-center m-t-lg">
