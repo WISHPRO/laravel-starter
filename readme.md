@@ -26,14 +26,14 @@ After composer finished install the dependencies, it should automatically change
 $ chmod -R 777 app/storage/
 ```
 
-###2. Initial Migration
+###2. Database Config
+---
+Before run the migration command, you need to create a new database for this project and update the login information under `app/config/database.php`
+
+###3. Initial Migration
 ---
 ```
 > php artisan migrate --package=cartalyst/sentry
 > php artisan migrate
 > php artisan db:seed
 ```
-
-###3. Database Information
----
-First you need to create a new database to work with and update the login information under `app/config/database.php`
