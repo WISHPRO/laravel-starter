@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'laravel_starter',
 			'username'  => 'dbadmin',
-			'password'  => 'password',
+			'password'  => '1q2w3e4r',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

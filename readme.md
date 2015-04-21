@@ -34,6 +34,5 @@ Before run the migration command, you need to create a new database for this pro
 ---
 ```
 > php artisan migrate --package=cartalyst/sentry
-> php artisan migrate
 > php artisan db:seed
 ```

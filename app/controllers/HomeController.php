@@ -4,22 +4,14 @@ class HomeController extends BaseController {
 
 	public function GET_index()
 	{
-		$theme = Theme::uses('notebook')->layout('main');
+		$theme = Theme::uses('notebook')->layout('landing');
 		$theme->setMenu('home.index');
 
-		$theme->asset()->usePath()->add('bootstrap-calendar', 'js/calendar/bootstrap_calendar.css');
+		$theme->asset()->usePath()->add('landing', 'css/landing.css');
 		
 		$theme->asset()->container('post-scripts')->usePath()->add('laravel1', 'js/app.plugin.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel2', 'js/charts/easypiechart/jquery.easy-pie-chart.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel3', 'js/charts/sparkline/jquery.sparkline.min.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel4', 'js/charts/flot/jquery.flot.min.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel5', 'js/charts/flot/jquery.flot.tooltip.min.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel6', 'js/charts/flot/jquery.flot.resize.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel7', 'js/charts/flot/jquery.flot.grow.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel8', 'js/charts/flot/demo.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel9', 'js/calendar/bootstrap_calendar.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel10', 'js/calendar/demo.js');
-		$theme->asset()->container('post-scripts')->usePath()->add('laravel11', 'js/sortable/jquery.sortable.js');
+		$theme->asset()->container('post-scripts')->usePath()->add('laravel2', 'js/scroll/smoothscroll.js');
+		$theme->asset()->container('post-scripts')->usePath()->add('laravel3', 'js/landing.js');
 
 		$params = array();
 		return $theme->scope('home.index', $params)->render();

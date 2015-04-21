@@ -22,8 +22,8 @@
                 <nav class="nav-primary hidden-xs">
                   <ul class="nav">
                     
-                    <li class="{{ set_active('home'); }}">
-                      <a href="{{ route('home') }}" class="{{ set_active('home.index') }}">
+                    <li class="{{ Helper::set_active('home'); }}">
+                      <a href="{{ route('home') }}" class="{{ Helper::set_active('home.index') }}">
                         <i class="fa fa-dashboard icon">
                           <b class="bg-danger"></b>
                         </i>
@@ -31,7 +31,7 @@
                       </a>
                     </li>
 
-                    <li class="{{ set_active('list') }}">
+                    <li class="{{ Helper::set_active('list') }}">
                       <a href="#list"  >
                         <i class="fa fa-question-circle icon">
                           <b class="bg-warning"></b>
@@ -43,19 +43,19 @@
                         <span>Menu List</span>
                       </a>
                       <ul class="nav lt">
-                        <li class="{{ set_active('list.menu1') }}">
+                        <li class="{{ Helper::set_active('list.menu1') }}">
                           <a href="{{ route('home') }}">
                             <i class="fa fa-angle-right"></i>
                             <span>Menu 1</span>
                           </a>
                         </li>
-                        <li class="{{ set_active('list.menu2') }}">
+                        <li class="{{ Helper::set_active('list.menu2') }}">
                           <a href="{{ route('home') }}">
                             <i class="fa fa-angle-right"></i>
                             <span>Menu 2</span>
                           </a>
                         </li>
-                        <li class="{{ set_active('list.menu3') }}">
+                        <li class="{{ Helper::set_active('list.menu3') }}">
                           <a href="{{ route('home') }}">
                             <i class="fa fa-angle-right"></i>
                             <span>Menu 3</span>
@@ -64,7 +64,7 @@
                       </ul>
                     </li>
 
-                    <li class="{{ set_active('user'); }}">
+                    <li class="{{ Helper::set_active('user'); }}">
                       <a href="#users">
                         <i class="fa fa-user icon">
                           <b class="bg-info"></b>
@@ -76,13 +76,13 @@
                         <span>User &amp; Group</span>
                       </a>
                       <ul class="nav lt">
-                        <li class="{{ set_active('user.user') }}">
+                        <li class="{{ Helper::set_active('user.user') }}">
                           <a href="{{ route('user.list') }}">
                             <i class="fa fa-angle-right"></i>
                             <span>User</span>
                           </a>
                         </li>
-                        <li class="{{ set_active('user.group') }}">
+                        <li class="{{ Helper::set_active('user.group') }}">
                           <a href="{{ route('group.assign') }}">
                             <i class="fa fa-angle-right"></i>
                             <span>Group</span>

@@ -58,8 +58,8 @@ return array(
             $theme->asset()->usePath()->add('app', 'css/app.css');
 
             // core js
-            $theme->asset()->container('core-scripts')->usePath()->add('jquery', 'js/jquery-1.11.2.min.js');
-            $theme->asset()->container('core-scripts')->usePath()->add('bootstrap', 'js/bootstrap.js');
+            $theme->asset()->usePath()->add('jquery', 'js/jquery-1.11.2.min.js');
+            $theme->asset()->usePath()->add('bootstrap', 'js/bootstrap.js');
             $theme->asset()->container('core-scripts')->usePath()->add('app', 'js/app.js');
             $theme->asset()->container('core-scripts')->usePath()->add('slimscroll', 'js/slimscroll/jquery.slimscroll.min.js');
         },

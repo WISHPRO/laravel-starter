@@ -40,9 +40,6 @@ class UserController extends BaseController
 		        'email'    => Input::get('email'),
 		        'password' => Input::get('password'),
 		        'first_name' => Input::get('full_name'),
-		        'employee_id' => Input::get('employee_id'),
-		        'department' => Input::get('department'),
-		        'designation' => Input::get('designation'),
 		        'activated' => true,
 		    ));
 
@@ -106,9 +103,6 @@ class UserController extends BaseController
 			$user = Sentry::findUserById($id);
 			$user->email = Input::get('email');
 		    $user->first_name = Input::get('full_name');
-		    $user->employee_id = Input::get('employee_id');
-		    $user->department = Input::get('department');
-		    $user->designation = Input::get('designation');
 		    if(Input::has('password')) $user->password = Input::get('password');
 
 		    $all_groups = Sentry::findAllGroups();
